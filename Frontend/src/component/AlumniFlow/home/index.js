@@ -1,7 +1,7 @@
 import React from 'react';
 import "../../../styles/AlumniFlow/home.css";
-import annastatueImage from '../../../assets/images/annastatue.jpg';
-import annalogo from '../../../assets/images/anna_logo.png';
+import annastatueImage from '../../../assets/images/cmc_clg_img.avif';
+import annalogo from '../../../assets/images/cmc_logo.png';
 import aluminiImage from '../../../assets/images/aluminibg2.jpg';
 import { MdEmail } from "react-icons/md";
 import { IoMdCall } from "react-icons/io";
@@ -19,7 +19,7 @@ export default function Home () {
       {/* Top Header */}
       <div className="home-top-header">
         <div className="home-header-contacts">
-          <span><MdEmail />Email : annauniversityalumni@example.com</span>
+          <span><MdEmail />Email : cmcalumni@example.com</span>
           <span><IoMdCall />Hotline : +00000000000</span>
         </div>
         <div className="home-header-auth">
@@ -52,9 +52,9 @@ export default function Home () {
         backgroundRepeat: 'no-repeat'
       }}>
         <div className="home-content-wrapper">
-          <h1>We are the proud student of anna university alumni forever</h1>
+          <h1>We are the proud student of CMC alumni forever</h1>
           <p>
-            Anna university Alumni is a user friendly that helps alumni easily connect and manage their activities. 
+            Cmc Alumni is a user friendly that helps alumni easily connect and manage their activities. 
             Alumni can sign up and get approved by submitting necessary documents, which allows them 
             to join the alumni community
           </p>
